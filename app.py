@@ -1,11 +1,7 @@
-from flask import Flask
+print("Hello from GitHub Actions CI pipeline")
 
-app = Flask(__name__)
+x = 5
+y = 10
 
-@app.route("/")
-def home():
-    return "Hello Pritam 🚀 CI/CD Working!"
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+print("Sum =", x + y)
 
